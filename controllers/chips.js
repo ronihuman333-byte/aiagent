@@ -4,6 +4,7 @@ const User = require('../models/User');
 // @route   GET api/chips/free
 // @desc    Get free chips if user has zero chips left
 // @access  Private
+
 exports.handleFreeChipsRequest = async (req, res) => {
   try {
     const user = await User.findById(req.user.id).select('-password');
