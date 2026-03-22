@@ -64,7 +64,7 @@ export function Navbar({ onSearch }) {
                 type="text"
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
-                placeholder="Search agents, capabilities..."
+                placeholder="Search agents"
                 className="input pl-9 py-2 text-sm"
               />
             </form>

@@ -21,4 +21,4 @@ export function RatingStars({ value, size = 14, showValue = false, count }) {
       )}
     </span>
   );
-}
+} 
