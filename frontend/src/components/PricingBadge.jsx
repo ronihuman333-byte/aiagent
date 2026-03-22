@@ -8,6 +8,7 @@ export function PricingBadge({ model, price, isWeb3, cryptoSymbol, cryptoPrice }
       </span>
     );
   }
+
   if (model === 'free') {
     return (
       <span className="badge bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
@@ -15,6 +16,7 @@ export function PricingBadge({ model, price, isWeb3, cryptoSymbol, cryptoPrice }
       </span>
     );
   }
+
   if (model === 'freemium') {
     return (
       <span className="badge bg-blue-500/10 text-blue-400 border border-blue-500/20">
@@ -22,6 +24,7 @@ export function PricingBadge({ model, price, isWeb3, cryptoSymbol, cryptoPrice }
       </span>
     );
   }
+  
   return (
     <span className="badge bg-amber-500/10 text-amber-400 border border-amber-500/20">
       <Coins size={12} /> {price && price > 0 ? `${price} credits` : 'Paid'}
