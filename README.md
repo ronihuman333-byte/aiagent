@@ -72,7 +72,7 @@ cd <Project Directory>
 npm install
 npm start
 
-# Open New Terminal | Go to the client folder and install its dependencies
+# Open new Terminal | Go to the client folder and install its dependencies
 cd frontend
 npm install
 
